@@ -20,8 +20,7 @@ public class PruebaController {
 	public String inicio(Model modelo) {
 		
 		System.out.println("INICIO");
-		
-		
+				
 		List<Categoria> lista = cr.buscaTodas();
 		for (Categoria c: lista) {
 			System.out.println("Categoria "+ c.getNombreCategoria());
