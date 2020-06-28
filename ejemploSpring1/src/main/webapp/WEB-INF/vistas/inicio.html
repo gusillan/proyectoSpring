@@ -6,5 +6,15 @@
 </head>
 <body>
 hola desde Spring MVC
+
+<table>
+<tr th:each="categoria:${listaCategorias}">
+<td th:text="${categoria.nombreCategoria}"></td>
+</tr>
+
+</table>
+
+
+
 </body>
 </html>
